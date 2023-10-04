@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isStringArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string-array@deno/mod.js';
+import isStringArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string-array@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string-array@deno/mod.js';
+import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string-array@v0.1.1-deno/mod.js';
 ```
 
 #### isStringArray( value )
@@ -106,7 +106,7 @@ bool = isStringArray.objects( [ 'beep', new String('boop') ] );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isStringArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string-array@deno/mod.js';
+import isStringArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string-array@v0.1.1-deno/mod.js';
 
 var bool = isStringArray( [ 'Hello World!' ] );
 // returns true
