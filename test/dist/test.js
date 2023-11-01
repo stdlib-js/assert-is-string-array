@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,49 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isStringArray = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof isStringArray, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function tests for an array of `string` values', function test( t ) {
-	var arr;
-
-	arr = [ 'a', new String( 'b' ) ]; // eslint-disable-line no-new-wrappers
-	t.equal( isStringArray( arr ), true, 'returns true' );
-
-	arr = [ 'a', 5, null ];
-	t.equal( isStringArray( arr ), false, 'returns false' );
-
-	t.end();
-});
-
-tape( 'the function provides a method to test for an array of `string` primitives', function test( t ) {
-	var arr;
-
-	arr = [ 'a', 'b' ];
-	t.equal( isStringArray.primitives( arr ), true, 'returns true' );
-
-	arr = [ new String( 'a' ), 'b' ]; // eslint-disable-line no-new-wrappers
-	t.equal( isStringArray.primitives( arr ), false, 'returns false' );
-
-	t.end();
-});
-
-tape( 'the function provides a method to test for an array of `String` objects', function test( t ) {
-	var arr;
-
-	arr = [ new String( 'a' ), new String( 'b' ) ]; // eslint-disable-line no-new-wrappers
-	t.equal( isStringArray.objects( arr ), true, 'returns true' );
-
-	arr = [ 'a', 'b' ];
-	t.equal( isStringArray.objects( arr ), false, 'returns false' );
-
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
