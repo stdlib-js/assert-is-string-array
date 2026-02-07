@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isStringArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string-array@esm/index.mjs';
+import isStringArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string-array@v0.2.3-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string-array@esm/index.mjs';
+import { objects, primitives } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string-array@v0.2.3-esm/index.mjs';
 ```
 
 #### isStringArray( value )
@@ -111,7 +111,7 @@ bool = isStringArray.objects( [ 'beep', new String('boop') ] );
 <body>
 <script type="module">
 
-import isStringArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string-array@esm/index.mjs';
+import isStringArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-string-array@v0.2.3-esm/index.mjs';
 
 var bool = isStringArray( [ 'Hello World!' ] );
 // returns true
