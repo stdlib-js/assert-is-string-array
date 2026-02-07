@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-string-array",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Test if a value is an array of strings.",
   "license": "Apache-2.0",
   "author": {
@@ -39,7 +39,7 @@
   "dependencies": {
     "@stdlib/assert-is-string": "^0.2.2",
     "@stdlib/assert-tools-array-function": "^0.2.2",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
